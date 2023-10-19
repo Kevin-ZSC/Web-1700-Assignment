@@ -1,0 +1,96 @@
+* { 
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2rem;
+}
+
+body {
+    margin:50px 100px;
+}
+
+.headerImg {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+h1 , h2{
+    font-weight: lighter;
+}
+
+.quote {
+    font-weight: bold;
+}
+
+.hisword {
+    font-size: smaller;
+} 
+
+h1, h2 ,h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+.timeline {
+    box-sizing: border-box;
+    max-width: 100%;
+    height:auto;
+    border: 1px black dashed;
+    padding:30px;
+    margin-bottom: 20px;
+ }
+
+ .us-content, .born,.x-ray, .lectureD,.USA, .Dies {
+    overflow: auto;
+}
+
+.bornImg,.X-Rays,.beusa {
+    width: 300px;
+    height :280px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+    padding-top:10px;
+}
+
+.us, .lecture,.died {
+    float:right;
+    width:300px;
+    height:280px;
+    border-radius: 20%;
+    padding-top:10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 50px;
+}
+
+
+
+
+
