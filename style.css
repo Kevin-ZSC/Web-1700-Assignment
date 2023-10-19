@@ -15,8 +15,8 @@ body {
     max-width: 100%;
 }
 
-h1 , h2{
-    font-weight: lighter;
+.name {
+    font-size: 5rem;
 }
 
 .quote {
@@ -25,12 +25,24 @@ h1 , h2{
 
 .hisword {
     font-size: smaller;
+    text-align: end;
 } 
 
-h1, h2 ,h3 {
+h1, h2 ,h3,.quote {
     justify-content: center;
     align-items: center;
     text-align: center;
+ }
+blockquote {
+    font-weight: bolder;
+}
+ .text {
+    margin: 60px 0;
+    box-sizing: border-box;
+    width:100%;
+    height: 50px;
+    background-color: goldenrod;
+    padding : 10px
  }
 
 .timeline {
@@ -66,29 +78,52 @@ h1, h2 ,h3 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+ }
+ 
+
+@media only screen and (max-width:600px) {
+    body {
+        display: grid;
+    }
+
+    .bornImg,.X-Rays,.beusa,.us, .lecture,.died {
+        margin: 20px;
+    }
+
+    .name {
+       font-size: 3rem;
+       overflow-wrap: break-word;
+    }
+
+    .text {
+        margin: 60px 0;
+        box-sizing: border-box;
+        width:100%;
+        height: 80px;
+        background-color: goldenrod;
+        padding : 10px
+     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
